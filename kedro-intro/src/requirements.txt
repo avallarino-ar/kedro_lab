@@ -1,0 +1,19 @@
+black==21.5b1 # Used for formatting code with `kedro lint`
+flake8>=3.7.9, <4.0 # Used for linting code with `kedro lint`
+ipython==7.0 # Used for an IPython session with `kedro ipython`
+isort~=5.0 # Used for linting code with `kedro lint`
+jupyter~=1.0 # Used to open a Kedro-session in Jupyter Notebook & Lab
+jupyter_client>=5.1.0, <7.0 # Used to open a Kedro-session in Jupyter Notebook & Lab
+jupyterlab~=3.0 # Used to open a Kedro-session in Jupyter Lab
+kedro==0.17.6
+kedro-telemetry~=0.1.0
+nbstripout~=0.4 # Strips the output of a Jupyter Notebook and writes the outputless version to the original file
+pytest-cov~=3.0 # Produces test coverage reports
+pytest-mock>=1.7.1, <2.0 # Wrapper around the mock package for easier use with 
+pytest~=6.2 # Testing framework for Python code
+wheel>=0.35, <0.37 # The reference implementation of the Python wheel packaging standard
+kedro[pandas.CSVDataSet, pandas.ExcelDataSet, pandas.ParquetDataSet]==0.17.6 # Specify optional Kedro dependencies
+kedro-viz~=4.0 # Visualise your pipelines
+openpyxl>=3.0.6, <4.0 # Use modern Excel engine (will not be required in 0.18.0)
+scikit-learn~=1.0 # For modelling in the data science pipeline
+kedro[plotly.PlotlyDataSet, plotly.JSONDataSet]==0.17.6
